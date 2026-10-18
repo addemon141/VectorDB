@@ -1,0 +1,116 @@
+syntax = "proto3";
+
+package vectordb.raft;
+
+enum ErrorCode {
+  OK = 0;
+  NOT_LEADER = 1;
+  STALE_VERSION = 2;
+  INVALID = 3;
+  TIMEOUT = 4;
+  INTERNAL = 5;
+  NOT_READY = 6;
+  BUSY = 7;       // 背压：propose 队列满
+  REBUILDING = 8; // Rebuild 进行中，拒绝写
+}
+
+message DocPayload {
+  string title = 1;
+  string link = 2;
+  string content = 3;
+  repeated float embedding = 4;
+}
+
+message AddBatch {
+  repeated DocPayload docs = 1;
+  // 非空时，相同 request_id 且正文一致的再次 apply 返回原 id，不再分配新文档。
+  string request_id = 2;
+}
+
+message DeleteCmd {
+  int64 base_version = 1;
+  int32 id = 2;
+}
+
+message RebuildCmd {
+  int64 base_version = 1;
+}
+
+message Noop {}
+
+message InstallBase {
+  string content_hash = 1;
+  int64 base_version = 2;
+  int64 cutoff_index = 3;  // 裁剪日志至该 index（含）；0 表示不裁剪
+}
+
+message Command {
+  oneof body {
+    AddBatch add = 1;
+    DeleteCmd del = 2;
+    RebuildCmd rebuild = 3;
+    Noop noop = 4;
+    InstallBase install_base = 5;
+  }
+}
+
+message LogEntry {
+  int64 term = 1;
+  int64 index = 2;
+  bytes command = 3;
+}
+
+message HardState {
+  int64 current_term = 1;
+  int32 voted_for = 2;
+}
+
+// 已被日志裁剪的 Add。doc_ids 在并入基座后是新的正式 id。
+message AppliedAdd {
+  string request_id = 1;
+  repeated int32 doc_ids = 2;
+  int64 log_index = 3;
+  uint64 content_fp = 4;
+}
+
+// InstallBase 裁剪后的前缀元数据
+message SnapshotMeta {
+  int64 last_included_index = 1;
+  int64 last_included_term = 2;
+  string content_hash = 3;
+  repeated AppliedAdd applied_adds = 4;
+}
+
+service RaftService {
+  rpc RequestVote(RequestVoteArgs) returns (RequestVoteReply);
+  rpc AppendEntries(AppendEntriesArgs) returns (AppendEntriesReply);
+}
+
+message RequestVoteArgs {
+  int64 term = 1;
+  int32 candidate_id = 2;
+  int64 last_log_index = 3;
+  int64 last_log_term = 4;
+  bool pre_vote = 5;  // true：不增 term、不持久化投票
+}
+
+message RequestVoteReply {
+  int64 term = 1;
+  bool vote_granted = 2;
+}
+
+message AppendEntriesArgs {
+  int64 term = 1;
+  int32 leader_id = 2;
+  int64 prev_log_index = 3;
+  int64 prev_log_term = 4;
+  repeated LogEntry entries = 5;
+  int64 leader_commit = 6;
+}
+
+message AppendEntriesReply {
+  int64 term = 1;
+  bool success = 2;
+  int64 conflict_index = 3;
+  int64 conflict_term = 4;
+}

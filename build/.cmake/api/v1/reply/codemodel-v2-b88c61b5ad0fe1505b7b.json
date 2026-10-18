@@ -1,0 +1,228 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs/exact_index",
+					"jsonFile" : "directory-libs.exact_index-Debug-4f71c65d9a39ec46a94c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/exact_index",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libs/vector_index",
+					"jsonFile" : "directory-libs.vector_index-Debug-37e90244f8f427269f3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/vector_index",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "service",
+					"jsonFile" : "directory-service-Debug-c6883009d343c2e75719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "service",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						7
+					]
+				},
+				{
+					"build" : "datanode",
+					"jsonFile" : "directory-datanode-Debug-ab706b23455354c665ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "datanode",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5
+					],
+					"name" : "VectorDB",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "exact_index",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "vector_index",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "exact_index_lib::@81e47b2287affdbe1b5c",
+					"jsonFile" : "target-exact_index_lib-Debug-7cc3d68b306266a19824.json",
+					"name" : "exact_index_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "raft_log_test::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-raft_log_test-Debug-ed98bdb4cfd72311e42b.json",
+					"name" : "raft_log_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vdb_raft_proto::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-vdb_raft_proto-Debug-964e9ac0f72178aa3d1d.json",
+					"name" : "vdb_raft_proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vdb_service_lib::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-vdb_service_lib-Debug-d7e40271cee659df03a0.json",
+					"name" : "vdb_service_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "vdb_tlv::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-vdb_tlv-Debug-41d057930dc9d1711c31.json",
+					"name" : "vdb_tlv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vector_index_lib::@af2743a0e9779fe2a09a",
+					"jsonFile" : "target-vector_index_lib-Debug-d6fc6cdb7ee664b89fa9.json",
+					"name" : "vector_index_lib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vectordb_datanode::@7902c643c0f37278d42c",
+					"jsonFile" : "target-vectordb_datanode-Debug-cff60918f9db16f06c2c.json",
+					"name" : "vectordb_datanode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vectordb_service::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-vectordb_service-Debug-2245b7e523947ac515fb.json",
+					"name" : "vectordb_service",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/addemon/VectorDB/VectorDB/build",
+		"source" : "/home/addemon/VectorDB/VectorDB"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

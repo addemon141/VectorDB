@@ -1,0 +1,9 @@
+# Phase-2 embedding (install with: python3 -m pip install --user -r requirements.txt)
+# Prefer CPU torch if you do not need CUDA:
+#   python3 -m pip install --user torch --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.23,<2
+torch
+transformers>=4.36
+sentence-transformers>=2.2
+Pillow>=9.5
+huggingface_hub

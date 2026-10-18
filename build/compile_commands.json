@@ -1,0 +1,137 @@
+[
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/libs/exact_index",
+  "command": "/usr/bin/g++  -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -g -std=gnu++17 -o CMakeFiles/exact_index_lib.dir/src/ThreadPool.cc.o -c /home/addemon/VectorDB/VectorDB/libs/exact_index/src/ThreadPool.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/libs/exact_index/src/ThreadPool.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/libs/exact_index",
+  "command": "/usr/bin/g++  -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -g -std=gnu++17 -o CMakeFiles/exact_index_lib.dir/src/TextUtil.cc.o -c /home/addemon/VectorDB/VectorDB/libs/exact_index/src/TextUtil.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/libs/exact_index/src/TextUtil.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/libs/exact_index",
+  "command": "/usr/bin/g++  -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -g -std=gnu++17 -o CMakeFiles/exact_index_lib.dir/src/Deduper.cc.o -c /home/addemon/VectorDB/VectorDB/libs/exact_index/src/Deduper.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/libs/exact_index/src/Deduper.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/libs/exact_index",
+  "command": "/usr/bin/g++  -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -g -std=gnu++17 -o CMakeFiles/exact_index_lib.dir/src/ExactIndexBuilder.cc.o -c /home/addemon/VectorDB/VectorDB/libs/exact_index/src/ExactIndexBuilder.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/libs/exact_index/src/ExactIndexBuilder.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/libs/exact_index",
+  "command": "/usr/bin/g++  -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -g -std=gnu++17 -o CMakeFiles/exact_index_lib.dir/src/Bm25Index.cc.o -c /home/addemon/VectorDB/VectorDB/libs/exact_index/src/Bm25Index.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/libs/exact_index/src/Bm25Index.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/libs/vector_index",
+  "command": "/usr/bin/g++  -I/home/addemon/VectorDB/VectorDB/libs/vector_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -g -std=gnu++17 -o CMakeFiles/vector_index_lib.dir/src/HnswBuilder.cc.o -c /home/addemon/VectorDB/VectorDB/libs/vector_index/src/HnswBuilder.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/libs/vector_index/src/HnswBuilder.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/common",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/common -I/home/addemon/VectorDB/VectorDB/third_party -g -std=gnu++17 -o CMakeFiles/vdb_tlv.dir/tlv/tlv.cc.o -c /home/addemon/VectorDB/VectorDB/common/tlv/tlv.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/common/tlv/tlv.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/common",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/common -I/home/addemon/VectorDB/VectorDB/third_party -g -std=gnu++17 -o CMakeFiles/vdb_tlv.dir/tlv/socket_io.cc.o -c /home/addemon/VectorDB/VectorDB/common/tlv/socket_io.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/common/tlv/socket_io.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/common",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/common -I/home/addemon/VectorDB/VectorDB/third_party -g -std=gnu++17 -o CMakeFiles/vdb_tlv.dir/tlv/hash_util.cc.o -c /home/addemon/VectorDB/VectorDB/common/tlv/hash_util.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/common/tlv/hash_util.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/common",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/common -I/home/addemon/VectorDB/VectorDB/third_party -g -std=gnu++17 -o CMakeFiles/vdb_tlv.dir/tlv/file_io.cc.o -c /home/addemon/VectorDB/VectorDB/common/tlv/file_io.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/common/tlv/file_io.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -I/home/addemon/VectorDB/VectorDB/build/service/generated -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_raft_proto.dir/generated/raft.pb.cc.o -c /home/addemon/VectorDB/VectorDB/build/service/generated/raft.pb.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/build/service/generated/raft.pb.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -I/home/addemon/VectorDB/VectorDB/build/service/generated -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_raft_proto.dir/generated/raft.grpc.pb.cc.o -c /home/addemon/VectorDB/VectorDB/build/service/generated/raft.grpc.pb.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/build/service/generated/raft.grpc.pb.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/index/DocStore.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/index/DocStore.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/index/DocStore.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/index/HnswSearcher.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/index/HnswSearcher.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/index/HnswSearcher.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/index/EmbedClient.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/index/EmbedClient.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/index/EmbedClient.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/raft/RaftLog.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/raft/RaftLog.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/raft/RaftLog.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/raft/RaftNode.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/raft/RaftNode.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/raft/RaftNode.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/sm/StateMachine.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/sm/StateMachine.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/sm/StateMachine.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/sm/QueryEngine.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/sm/QueryEngine.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/sm/QueryEngine.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/net/DataNodeClient.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/net/DataNodeClient.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/net/DataNodeClient.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/job/ClusterJob.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/job/ClusterJob.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/job/ClusterJob.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vdb_service_lib.dir/src/api/HttpApi.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/api/HttpApi.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/api/HttpApi.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/vectordb_service.dir/src/main_service.cc.o -c /home/addemon/VectorDB/VectorDB/service/src/main_service.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/src/main_service.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/service",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/service/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/build/service/generated -I/home/addemon/VectorDB/VectorDB/common -isystem /home/addemon/.local/include -g -std=gnu++17 -o CMakeFiles/raft_log_test.dir/tests/raft_log_test.cc.o -c /home/addemon/VectorDB/VectorDB/service/tests/raft_log_test.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/service/tests/raft_log_test.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/datanode",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/datanode/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/common -g -std=gnu++17 -o CMakeFiles/vectordb_datanode.dir/src/main_datanode.cc.o -c /home/addemon/VectorDB/VectorDB/datanode/src/main_datanode.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/datanode/src/main_datanode.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/datanode",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/datanode/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/common -g -std=gnu++17 -o CMakeFiles/vectordb_datanode.dir/src/DataNodeServer.cc.o -c /home/addemon/VectorDB/VectorDB/datanode/src/DataNodeServer.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/datanode/src/DataNodeServer.cc"
+},
+{
+  "directory": "/home/addemon/VectorDB/VectorDB/build/datanode",
+  "command": "/usr/bin/g++ -DVDB_IO_URING=1 -I/home/addemon/VectorDB/VectorDB/datanode/include -I/home/addemon/VectorDB/VectorDB/third_party -I/home/addemon/VectorDB/VectorDB/libs/exact_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/include -I/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib -I/home/addemon/VectorDB/VectorDB/common -g -std=gnu++17 -o CMakeFiles/vectordb_datanode.dir/src/IndexBuilder.cc.o -c /home/addemon/VectorDB/VectorDB/datanode/src/IndexBuilder.cc",
+  "file": "/home/addemon/VectorDB/VectorDB/datanode/src/IndexBuilder.cc"
+}
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>tiny corpus a</title>
+    <item>
+      <title>苹果发布会</title>
+      <link>http://example.com/apple</link>
+      <description>苹果公司发布了新的手机产品和操作系统更新。</description>
+    </item>
+    <item>
+      <title>香蕉种植技术</title>
+      <link>http://example.com/banana</link>
+      <description>热带地区香蕉种植需要充足的阳光和水分。</description>
+    </item>
+  </channel>
+</rss>

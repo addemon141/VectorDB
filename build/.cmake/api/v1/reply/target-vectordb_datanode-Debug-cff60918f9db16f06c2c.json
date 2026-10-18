@@ -1,0 +1,208 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/vectordb_datanode"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"datanode/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "VDB_IO_URING=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/addemon/VectorDB/VectorDB/datanode/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/addemon/VectorDB/VectorDB/third_party"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/addemon/VectorDB/VectorDB/libs/exact_index/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/addemon/VectorDB/VectorDB/libs/vector_index/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/addemon/VectorDB/VectorDB/libs/vector_index/third_party/hnswlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/addemon/VectorDB/VectorDB/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "exact_index_lib::@81e47b2287affdbe1b5c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "vector_index_lib::@af2743a0e9779fe2a09a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "vdb_tlv::@bfc844598bd03e848b3c"
+		}
+	],
+	"id" : "vectordb_datanode::@7902c643c0f37278d42c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/exact_index/libexact_index_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/vector_index/libvector_index_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../common/libvdb_tlv.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ltinyxml2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liburing.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "vectordb_datanode",
+	"nameOnDisk" : "vectordb_datanode",
+	"paths" : 
+	{
+		"build" : "datanode",
+		"source" : "datanode"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "datanode/src/main_datanode.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "datanode/src/DataNodeServer.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "datanode/src/IndexBuilder.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

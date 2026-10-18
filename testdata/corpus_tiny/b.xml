@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>tiny corpus b</title>
+    <item>
+      <title>向量数据库检索</title>
+      <link>http://example.com/vectordb</link>
+      <description>向量数据库使用近似最近邻算法加速语义检索，常与关键词检索混合。</description>
+    </item>
+    <item>
+      <title>苹果果汁配方</title>
+      <link>http://example.com/juice</link>
+      <description>新鲜苹果可以榨汁，加入少量柠檬提升风味。</description>
+    </item>
+  </channel>
+</rss>

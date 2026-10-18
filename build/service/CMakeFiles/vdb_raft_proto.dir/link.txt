@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvdb_raft_proto.a CMakeFiles/vdb_raft_proto.dir/generated/raft.pb.cc.o CMakeFiles/vdb_raft_proto.dir/generated/raft.grpc.pb.cc.o
+/usr/bin/ranlib libvdb_raft_proto.a
