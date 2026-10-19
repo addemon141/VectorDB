@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvdb_tlv.a CMakeFiles/vdb_tlv.dir/tlv/tlv.cc.o CMakeFiles/vdb_tlv.dir/tlv/socket_io.cc.o CMakeFiles/vdb_tlv.dir/tlv/hash_util.cc.o CMakeFiles/vdb_tlv.dir/tlv/file_io.cc.o
-/usr/bin/ranlib libvdb_tlv.a

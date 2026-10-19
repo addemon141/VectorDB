@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvector_index_lib.a CMakeFiles/vector_index_lib.dir/src/HnswBuilder.cc.o
-/usr/bin/ranlib libvector_index_lib.a

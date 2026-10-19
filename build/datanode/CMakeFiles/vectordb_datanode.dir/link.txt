@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/vectordb_datanode.dir/src/main_datanode.cc.o CMakeFiles/vectordb_datanode.dir/src/DataNodeServer.cc.o CMakeFiles/vectordb_datanode.dir/src/IndexBuilder.cc.o -o ../bin/vectordb_datanode  ../libs/exact_index/libexact_index_lib.a ../libs/vector_index/libvector_index_lib.a ../common/libvdb_tlv.a -ltinyxml2 -lpthread /usr/lib/x86_64-linux-gnu/liburing.so 

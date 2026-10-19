@@ -1,2 +1,0 @@
-/usr/bin/ar qc libexact_index_lib.a CMakeFiles/exact_index_lib.dir/src/ThreadPool.cc.o CMakeFiles/exact_index_lib.dir/src/TextUtil.cc.o CMakeFiles/exact_index_lib.dir/src/Deduper.cc.o CMakeFiles/exact_index_lib.dir/src/ExactIndexBuilder.cc.o CMakeFiles/exact_index_lib.dir/src/Bm25Index.cc.o
-/usr/bin/ranlib libexact_index_lib.a
