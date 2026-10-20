@@ -1,7 +1,5 @@
 # VectorDB 第二版（Service + DataNode）
 
-新代码在本目录。参考实现见 `../legacy/`。
-
 Service 负责 HTTP、Raft 和查询。DataNode 负责把语料建成只读基座。语料和快照文件不进 Raft；Raft 日志里只有命令（Add / Delete / Rebuild / InstallBase / Noop）。
 
 ## 构建
